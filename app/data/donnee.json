@@ -1,0 +1,72 @@
+{
+  "currentTitle" : "Première année d'école d'ingénieur en science informatique",
+  "identity":
+  {
+    "lastName": "RAPENOMANANA",
+    "firstName": "Natiora Veroniaina",
+    "address":
+    {
+      "streetNum": "2400",
+      "streetName": "rte Des Dolines",
+      "zipCode": "06560",
+      "town": "Valbonne"
+    },
+    "phone": "06.69.75.45.41",
+    "mail": "natiora.aina@gmail.com",
+    "sex": "Femme",
+    "dateOfBirth": "22/01/1993"
+  },
+
+  "workExperience": [
+    {
+      "date" : "avril 2014-juin 2014",
+      "title": "Stagiaire",
+      "company": "A2A Ascenseurs Reims",
+      "description": "Développement application mobile PTI (Protection du travailleur Isolé et stockage de données en utilisant un gestionnaire de base de données MySQL (phpMyAdmin)"
+    }
+  ],
+
+  "education": [
+    {
+      "date": "2014-2015",
+      "cursus": "First year in engineering school",
+      "establishment": "Polytech Nice Spohia"
+    },
+    {
+      "date": "2012-2014",
+      "cursus": "Second year diploma in computing science",
+      "establishment": "IUT (Institute of Thechnologie) Reims Champagne Ardenne)"
+    },
+    {
+      "date" : "2011-2012",
+      "cursus" : "Baccalauréat Scientifique option Mathématique",
+      "establishment" : "Lycée Younoussa Bamana Mamoudzou Mayotte"
+    }
+  ],
+
+  "language" : [
+    { "desc" : "Malgache" },
+    { "desc" : "Français" }
+
+  ],
+
+  "skills" : [
+    {
+      "what" : "Langages de programmations",
+      "content" : "JAVA, C, C++, SQL, HTML, JavaScript"
+    },
+    {
+      "what" : "Suite bureautique",
+      "content" : "Microsoft(word, excel, Power Point, Access) Libre office (Writer, Calc, Impress)"
+    }
+  ],
+
+  "title": {
+    "personal" : "INFORMATION PERSONNELLE",
+    "currentTitle" : "ETUDES",
+    "workExp" : "EXPERIENCE PROFESSIONNELLE",
+    "education" : "EDUCATION ET FORMATION",
+    "languageTitle" : "LANGUAGES",
+    "skills" : "COMPETENCES PERSONNELLES"
+  }
+}

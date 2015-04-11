@@ -1,0 +1,58 @@
+<style>
+   table {
+    margin-top: 5%;
+     margin-bottom: 5%;
+  }
+  td {
+    border-bottom: 10px solid #ffffff;
+  }
+</style>
+
+<div ng-controller="cvCtrl">
+  <table>
+
+    <tr><td><h1>{{personal}}</h1></td>
+      <td>
+        <p>{{lastName}} {{firstName}}
+          <br>{{streetNum}} {{streetName}}, {{zipCode}} {{town}}
+          <br>{{mail}}
+        </p>
+      </td>
+    </tr>
+
+    <tr><td><h1>{{currentTitle}}</h1></td>
+      <td>
+        <p>{{currentTitleValue}}
+        </p>
+      </td>
+    </tr>
+
+    <tr><td><h1>{{workExp}}</h1></td>
+      <td>
+        <p>{{date1}}<br>{{title}}<br>{{company}}<br>{{description}}
+        </p>
+      </td>
+    </tr>
+
+    <tr><td><h1>{{education}}</h1></td>
+      <td>
+        <p ng-repeat="education in arrayEducation">{{education.date}}
+          <br>{{education.cursus}}
+          <br>{{education.establishment}}
+      </td>
+    </tr>
+
+    <tr><td><h1>{{languageTitle}}</h1></td>
+      <td>
+        <p ng-repeat="lang in arraylanguage">{{lang.desc}}<br>
+      </td>
+    </tr>
+
+    <tr><td><h1>{{skills}}</h1></td>
+      <td>
+        <p ng-repeat="skill in arrayskills">{{skill.what}}<br>{{skill.content}}<br>
+      </td>
+    </tr>
+
+  </table>
+</div>
